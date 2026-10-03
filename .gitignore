@@ -11,7 +11,7 @@ __pycache__/
 *$py.class
 .pytest_cache/
 .mypy_cache/
-.ruff_cache/
+.ruff_cache/ 
 .tox/
 .nox/
 htmlcov/
