@@ -1,0 +1,46 @@
+# Environnements virtuels et dépendances
+.venv/
+venv/
+env/
+ENV/
+node_modules/
+
+# Python : caches, fichiers compilés et outils
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+
+# Artefacts de build
+build/
+dist/
+*.egg-info/
+
+# Variables d'environnement et secrets locaux
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Journaux et fichiers temporaires
+*.log
+*.tmp
+*.bak
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Éditeurs et IDE
+.idea/
+.vscode/
+*.swp
+*.swo
